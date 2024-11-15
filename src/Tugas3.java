@@ -37,9 +37,9 @@ public class Tugas3 extends javax.swing.JFrame {
 
         if (!kuponText.isEmpty() && daftarKupon.containsKey(kuponText)) {
             kuponDiskon = daftarKupon.get(kuponText);
-            JOptionPane.showMessageDialog(null, "Kupon valid! Diskon " + kuponDiskon + "% diterapkan.");
+            JOptionPane.showMessageDialog(null, "Kupon valid!! Diskon " + kuponDiskon + "% diterapkan.");
         } else {
-            JOptionPane.showMessageDialog(null, "Kupon tidak valid! Tidak ada diskon yang diterapkan.");
+            JOptionPane.showMessageDialog(null, "Kupon tidak valid!! Tidak ada diskon yang diterapkan.");
         }
 
         double diskonTambahan = 0;
