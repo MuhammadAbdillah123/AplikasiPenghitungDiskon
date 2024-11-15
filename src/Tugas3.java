@@ -38,7 +38,7 @@ public class Tugas3 extends javax.swing.JFrame {
         if (!kuponText.isEmpty() && daftarKupon.containsKey(kuponText)) {
             kuponDiskon = daftarKupon.get(kuponText);
             JOptionPane.showMessageDialog(null, "Kupon valid!! Diskon " + kuponDiskon + "% diterapkan.");
-        } else {
+        } else { 
             JOptionPane.showMessageDialog(null, "Kupon tidak valid!! Tidak ada diskon yang diterapkan.");
         }
 
@@ -54,7 +54,7 @@ public class Tugas3 extends javax.swing.JFrame {
 
         double hargaAsli = Double.parseDouble(jTextField1.getText());
         double potonganHarga = hargaAsli * (totalDiskon / 100);
-        double hargaAkhir = hargaAsli - potonganHarga;
+        double hargaAkhir = hargaAsli - potonganHarga; 
 
         jLabel7.setText(String.format("Potongan Harga = Rp %.2f", potonganHarga));  
         jLabel8.setText(String.format("Harga Akhir = Rp %.2f", hargaAkhir));
